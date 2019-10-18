@@ -1,0 +1,61 @@
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 20%;
+  position: relative;
+}
+
+.owl-carousel {
+  size: A5;
+  /* display: none; */
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+img {
+  height: 170px;
+  width: 170px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  width: 170px;
+  height: 37px;
+}
